@@ -23,58 +23,6 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 1.0
-  7:
-   Uri: 'urn:FTOptix:Core:Net'
-   Module: FTOptix.Core.Net
-   Version: 1.2
-  8:
-   Uri: 'urn:FTOptix:UI'
-   Module: FTOptix.UI
-   Version: 11.0
-  9:
-   Uri: 'urn:FTOptix:UI:Net'
-   Module: FTOptix.UI.Net
-   Version: 11.0
-  10:
-   Uri: 'urn:FTOptix:Retentivity'
-   Module: FTOptix.Retentivity
-   Version: 1.0
-  11:
-   Uri: 'urn:FTOptix:Retentivity:Net'
-   Module: FTOptix.Retentivity.Net
-   Version: 1.0
-  12:
-   Uri: 'urn:FTOptix:System'
-   Module: FTOptix.System
-   Version: 3.0
-  13:
-   Uri: 'urn:FTOptix:System:Net'
-   Module: FTOptix.System.Net
-   Version: 2.0
-  14:
-   Uri: 'urn:FTOptix:HMIProject'
-   Module: FTOptix.HMIProject
-   Version: 5.3
-  15:
-   Uri: 'urn:FTOptix:HMIProject:Net'
-   Module: FTOptix.HMIProject.Net
-   Version: 4.4
-  16:
-   Uri: 'urn:FTOptix:NativeUI'
-   Module: FTOptix.NativeUI
-   Version: 2.0
-  17:
-   Uri: 'urn:FTOptix:NativeUI:Net'
-   Module: FTOptix.NativeUI.Net
-   Version: 1.0
-  18:
-   Uri: 'urn:FTOptix:SerialPort'
-   Module: FTOptix.SerialPort
-   Version: 1.0
-  19:
-   Uri: 'urn:FTOptix:SerialPort:Net'
-   Module: FTOptix.SerialPort.Net
-   Version: 1.0
  Statistics:
   TotalNodeCount: 0
   Objects: 0
