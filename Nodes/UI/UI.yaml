@@ -284,3 +284,4 @@ Children:
       Value: 5.0
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml
+- File: Pages/Pages.yaml
