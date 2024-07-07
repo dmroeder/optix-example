@@ -1,2 +1,43 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: Ingredient01
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Ingredient02
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Ingredient03
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor1Alarm
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Temperature
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
