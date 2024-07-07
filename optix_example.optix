@@ -73,15 +73,23 @@ Project:
    Uri: 'urn:FTOptix:System:Net'
    Module: FTOptix.System.Net
    Version: 2.0
+  19:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.1
+  20:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 1940
-  Objects: 365
+  TotalNodeCount: 2061
+  Objects: 407
   ObjectTypes: 33
-  Variables: 1532
+  Variables: 1611
   VariableTypes: 0
   DataTypes: 0
   Methods: 10
-  References: 18
+  References: 22
   ReferenceTypes: 0
   Files: 28
  Nodes:

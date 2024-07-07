@@ -6,6 +6,7 @@ using FTOptix.NetLogic;
 using System.Collections.Generic;
 using FTOptix.UI;
 using FTOptix.SerialPort;
+using FTOptix.WebUI;
 #endregion
 
 public class SystemToNetworkInterfacesEditModelWriterLogic : BaseNetLogic

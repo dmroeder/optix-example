@@ -3,6 +3,7 @@ using FTOptix.HMIProject;
 using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.SerialPort;
+using FTOptix.WebUI;
 #endregion
 
 public class ApplicationNameLogic : BaseNetLogic

@@ -2,6 +2,7 @@
 using UAManagedCore;
 using FTOptix.System;
 using FTOptix.NetLogic;
+using FTOptix.WebUI;
 #endregion
 
 public class IncomingConnectionReceiverLogic : BaseNetLogic
