@@ -7,6 +7,7 @@ using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.CoreBase;
 using FTOptix.WebUI;
+using FTOptix.Alarm;
 #endregion
 
 public class FTRemoteAccessWidgetSetupLogic : BaseNetLogic

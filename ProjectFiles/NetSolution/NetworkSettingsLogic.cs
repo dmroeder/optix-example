@@ -7,6 +7,7 @@ using FTOptix.UI;
 using System.Linq;
 using FTOptix.SerialPort;
 using FTOptix.WebUI;
+using FTOptix.Alarm;
 #endregion
 
 public class NetworkSettingsLogic : BaseNetLogic

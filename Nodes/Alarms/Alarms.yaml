@@ -1,3 +1,55 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=dad6fe2df62c6c88fd932bc099423771
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c6a510c636e2442d7dbca103fac24e37
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=655804b87ddab5a545b1e0213384196e
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ca9d65322f4296ba8136d5f507d57b2c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Motor1Alarm"
+      Children:
+      - Name: Mode
+        Id: g=b1b953e07ba48ba3146712cc4455baa6
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=8e436f95cb7345d567ff699afd976338
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=21;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=9c39fecff2495b647baed75139c0e764
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Motor 1 Alarm, zoinks!"}
+  - Name: AutoConfirm
+    Id: g=84c3fbcccf9f652e11dce888b8947ca3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

@@ -81,15 +81,23 @@ Project:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
    Version: 1.1
+  21:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 2.0
+  22:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 2061
-  Objects: 407
+  TotalNodeCount: 2069
+  Objects: 408
   ObjectTypes: 33
-  Variables: 1611
+  Variables: 1618
   VariableTypes: 0
   DataTypes: 0
   Methods: 10
-  References: 22
+  References: 25
   ReferenceTypes: 0
   Files: 28
  Nodes:

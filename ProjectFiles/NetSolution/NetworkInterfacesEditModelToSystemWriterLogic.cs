@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using FTOptix.UI;
 using FTOptix.SerialPort;
 using FTOptix.WebUI;
+using FTOptix.Alarm;
 #endregion
 
 public class NetworkInterfacesEditModelToSystemWriterLogic : BaseNetLogic

@@ -4,6 +4,7 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.SerialPort;
 using FTOptix.WebUI;
+using FTOptix.Alarm;
 #endregion
 
 public class NetworkInterfacesEditModelReaderLogic : BaseNetLogic
