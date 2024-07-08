@@ -296,3 +296,28 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../EventArguments/LocalTime"
+- Name: DataLogger1
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 2
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/optix_example/DataStores/DataLogDB"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: VariablesToLog
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=29;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true

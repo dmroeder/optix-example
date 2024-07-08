@@ -7,6 +7,7 @@ using FTOptix.Alarm;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.EventLogger;
+using FTOptix.DataLogger;
 #endregion
 
 public class IncomingConnectionReceiverLogic : BaseNetLogic
