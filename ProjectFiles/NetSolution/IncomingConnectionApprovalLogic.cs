@@ -4,6 +4,9 @@ using FTOptix.NetLogic;
 using FTOptix.System;
 using FTOptix.WebUI;
 using FTOptix.Alarm;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class IncomingConnectionApprovalLogic : BaseNetLogic

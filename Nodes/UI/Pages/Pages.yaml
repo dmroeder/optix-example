@@ -1285,7 +1285,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 390.0
-- Name: Page3
+- Name: AlarmHistory
   Id: g=935a1716c5846fb64b09a0551ed03d17
   Supertype: Page
   ReferenceType: HasComponent

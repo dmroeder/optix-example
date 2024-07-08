@@ -89,15 +89,39 @@ Project:
    Uri: 'urn:FTOptix:Alarm:Net'
    Module: FTOptix.Alarm.Net
    Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:EventLogger'
+   Module: FTOptix.EventLogger
+   Version: 2.0
+  24:
+   Uri: 'urn:FTOptix:EventLogger:Net'
+   Module: FTOptix.EventLogger.Net
+   Version: 1.0
+  25:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  26:
+   Uri: 'urn:FTOptix:Store:Net'
+   Module: FTOptix.Store.Net
+   Version: 1.0
+  27:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
+  28:
+   Uri: 'urn:FTOptix:SQLiteStore:Net'
+   Module: FTOptix.SQLiteStore.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 2433
-  Objects: 485
+  TotalNodeCount: 2520
+  Objects: 496
   ObjectTypes: 33
-  Variables: 1903
+  Variables: 1979
   VariableTypes: 0
   DataTypes: 0
   Methods: 12
-  References: 29
+  References: 46
   ReferenceTypes: 0
   Files: 28
  Nodes:

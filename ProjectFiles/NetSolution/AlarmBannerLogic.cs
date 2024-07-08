@@ -9,6 +9,9 @@ using FTOptix.NetLogic;
 using FTOptix.Alarm;
 using System.Collections.Generic;
 using System.Threading;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic

@@ -6,6 +6,9 @@ using FTOptix.UI;
 using FTOptix.SerialPort;
 using FTOptix.WebUI;
 using FTOptix.Alarm;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class DeviceSettingsWidgetLogic : BaseNetLogic

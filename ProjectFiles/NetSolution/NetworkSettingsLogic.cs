@@ -8,6 +8,9 @@ using System.Linq;
 using FTOptix.SerialPort;
 using FTOptix.WebUI;
 using FTOptix.Alarm;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class NetworkSettingsLogic : BaseNetLogic
