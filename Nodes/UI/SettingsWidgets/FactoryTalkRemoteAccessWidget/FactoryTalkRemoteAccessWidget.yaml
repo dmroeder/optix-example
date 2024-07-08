@@ -10,12 +10,10 @@ Children:
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
-    Value: 0
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
-    Value: 0
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -38,7 +36,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           Children:
           - Name: ConditionalConverter1
             Type: ConditionalConverter
@@ -47,7 +44,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Boolean
               ReferenceType: HasSource
-              Value: false
               Children:
               - Name: ExpressionEvaluator1
                 Type: ExpressionEvaluator
@@ -110,7 +106,6 @@ Children:
           Type: BaseDataVariableType
           DataType: NodeId
           ValueRank: ScalarOrOneDimension
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -136,7 +131,6 @@ Children:
           Type: BaseDataVariableType
           DataType: NodeId
           ValueRank: ScalarOrOneDimension
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -146,7 +140,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -165,7 +158,6 @@ Children:
     - Name: CurrentTabIndex
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Class: Reference
       Target: ns=5;i=1181
     - Class: Reference
@@ -176,23 +168,18 @@ Children:
     - Name: IncomingConnectionRequest
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: Username
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: IpAddress
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: SupervisorId
       Type: BaseDataVariableType
       DataType: ByteString
-      Value: ""
     - Name: FTRemoteAccessNode
       Type: Alias
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType

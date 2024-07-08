@@ -10,12 +10,10 @@ Children:
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
-    Value: 0
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
-    Value: 0
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -52,7 +50,6 @@ Children:
           Type: BaseDataVariableType
           DataType: NodeId
           ValueRank: ScalarOrOneDimension
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -78,7 +75,6 @@ Children:
           Type: BaseDataVariableType
           DataType: NodeId
           ValueRank: ScalarOrOneDimension
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -104,7 +100,6 @@ Children:
           Type: BaseDataVariableType
           DataType: NodeId
           ValueRank: ScalarOrOneDimension
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -114,7 +109,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -144,16 +138,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: CurrentTabIndex
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Class: Reference
       Target: ns=5;i=1181
     - Class: Reference

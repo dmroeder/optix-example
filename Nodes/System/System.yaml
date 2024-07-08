@@ -13,25 +13,20 @@ Children:
     - Name: SynchronizationMode
       Type: BaseDataVariableType
       DataType: TimeSynchronizationModeEnum
-      Value: 0
     - Name: RemoteNTPServer
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: DateTime
       Type: BaseDataVariableType
       DataType: DateTime
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: TimeZone
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: LocalNTPServerInterfaces
       Type: BaseDataVariableType
       DataType: String
       ValueRank: OneDimension
       ArrayDimensions: [0]
-      Value: []
   - Name: Device
     Type: PropertyGroup
     Children:
@@ -39,130 +34,104 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       AccessLevel: Read
-      Value: ""
     - Name: CPUFrequency
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: CPUTemperature
       Type: BaseDataVariableType
       DataType: Int32
       AccessLevel: Read
-      Value: 0
     - Name: CPUUtilization
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: EthernetNetworkCount
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: EthernetPortCount
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: FirmwareDate
       Type: BaseDataVariableType
       DataType: DateTime
       AccessLevel: Read
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: FirmwareVersion
       Type: BaseDataVariableType
       DataType: String
       AccessLevel: Read
-      Value: ""
     - Name: HardwareProductCode
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: HardwareProductType
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: HardwareVersion
       Type: BaseDataVariableType
       DataType: String
       AccessLevel: Read
-      Value: ""
     - Name: HardwareSeries
       Type: BaseDataVariableType
       DataType: String
       AccessLevel: Read
-      Value: ""
     - Name: Hostname
       Type: BaseDataVariableType
       DataType: String
-      Value: ""
     - Name: LastApplicationUpdateTime
       Type: BaseDataVariableType
       DataType: DateTime
       AccessLevel: Read
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: LastBootupTime
       Type: BaseDataVariableType
       DataType: DateTime
       AccessLevel: Read
-      Value: "1601-01-01T00:00:00.0000000"
     - Name: OSVersion
       Type: BaseDataVariableType
       DataType: String
       AccessLevel: Read
-      Value: ""
     - Name: ProductName
       Type: BaseDataVariableType
       DataType: String
       AccessLevel: Read
-      Value: ""
     - Name: ProtectionModeEnabled
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: SystemManagerVersion
       Type: BaseDataVariableType
       DataType: String
       AccessLevel: Read
-      Value: ""
     - Name: TotalOnTime
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: FreeMemory
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: TotalMemory
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: UsedMemory
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: FreeStorage
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: TotalStorage
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: UsedStorage
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
   - Name: Display
     Type: PropertyGroup
     Children:
@@ -174,12 +143,10 @@ Children:
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: VerticalResolution
       Type: BaseDataVariableType
       DataType: UInt32
       AccessLevel: Read
-      Value: 0
     - Name: Scale
       Type: BaseDataVariableType
       DataType: UInt32
@@ -187,7 +154,6 @@ Children:
     - Name: Orientation
       Type: BaseDataVariableType
       DataType: DisplayOrientationEnum
-      Value: 0
   - Name: Application
     Type: PropertyGroup
     Children:
@@ -195,17 +161,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       AccessLevel: Read
-      Value: false
     - Name: MediumBlink
       Type: BaseDataVariableType
       DataType: Boolean
       AccessLevel: Read
-      Value: false
     - Name: SlowBlink
       Type: BaseDataVariableType
       DataType: Boolean
       AccessLevel: Read
-      Value: false
   - Class: Reference
     Target: ns=16;i=17
     Direction: Forward
@@ -213,7 +176,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Class: Reference
     Target: ns=16;i=100
     Direction: Forward
@@ -225,42 +187,34 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: ServerConnection
     Type: BaseDataVariableType
     DataType: ServerConnectionEnum
     AccessLevel: Read
-    Value: 0
   - Name: RegisteredToDomain
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: AssistanceRequestMode
     Type: BaseDataVariableType
     DataType: AssistanceRequestModeEnum
     AccessLevel: Read
-    Value: 0
   - Name: AssistanceRequested
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
-    Value: false
   - Name: RemoteConnectionCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: AnonymousId
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: AnonymousPassword
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Class: Reference
     Target: ns=16;i=71
     Direction: Forward
@@ -300,7 +254,6 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: Method
           Type: BaseDataVariableType
           DataType: String
@@ -315,7 +268,6 @@ Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -330,7 +282,6 @@ Children:
             Type: BaseDataVariableType
             DataType: UInt32
             ValueRank: ScalarOrOneDimension
-            Value: 0
       - Name: MethodContainerFTRemoteAccessWidgetIPAddress
         Type: BaseObjectType
         Children:
@@ -342,7 +293,6 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: Method
           Type: BaseDataVariableType
           DataType: String
@@ -357,7 +307,6 @@ Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: String
-            Value: ""
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -372,7 +321,6 @@ Children:
             Type: BaseDataVariableType
             DataType: UInt32
             ValueRank: ScalarOrOneDimension
-            Value: 0
       - Name: MethodContainerFTRemoteAccessWidgetSupervisorId
         Type: BaseObjectType
         Children:
@@ -384,7 +332,6 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: Method
           Type: BaseDataVariableType
           DataType: String
@@ -399,7 +346,6 @@ Children:
           - Name: Value
             Type: BaseDataVariableType
             DataType: ByteString
-            Value: ""
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -414,7 +360,6 @@ Children:
             Type: BaseDataVariableType
             DataType: UInt32
             ValueRank: ScalarOrOneDimension
-            Value: 0
       - Name: MethodContainerFTRemoteAccessWidgetConnectionPending
         Type: BaseObjectType
         Children:
@@ -426,7 +371,6 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: Method
           Type: BaseDataVariableType
           DataType: String
@@ -446,71 +390,55 @@ Children:
             Type: BaseDataVariableType
             DataType: UInt32
             ValueRank: ScalarOrOneDimension
-            Value: 0
     - Name: EventArguments
       Type: RemoteConnectionRequestEvent
       Children:
       - Name: SupervisorId
         Type: BaseDataVariableType
         DataType: ByteString
-        Value: ""
       - Name: Username
         Type: BaseDataVariableType
         DataType: String
-        Value: ""
       - Name: IpAddress
         Type: BaseDataVariableType
         DataType: String
-        Value: ""
       - Name: EventId
         Type: PropertyType
         DataType: ByteString
-        Value: ""
       - Name: EventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceNode
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceName
         Type: PropertyType
         DataType: String
-        Value: ""
       - Name: Time
         Type: PropertyType
         DataType: UtcTime
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: ReceiveTime
         Type: PropertyType
         DataType: UtcTime
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: Message
         Type: PropertyType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Severity
         Type: PropertyType
         DataType: UInt16
-        Value: 0
   - Name: FTRemoteAccessWidgetUsername
     Id: g=4d410d91e4414682a8403bcbb906403e
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
   - Name: FTRemoteAccessWidgetIPAddress
     Id: g=a2fa3fb9ada84c5eb4c0d391b616d724
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
   - Name: FTRemoteAccessWidgetSupervisorId
     Id: g=ba6c88456c1947b58f04cc05a7281caf
     Type: BaseDataVariableType
     DataType: ByteString
-    Value: ""
   - Name: FTRemoteAccessWidgetConnectionPending
     Id: g=8e5d66d85a6a4d2bb59303d527c51619
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false

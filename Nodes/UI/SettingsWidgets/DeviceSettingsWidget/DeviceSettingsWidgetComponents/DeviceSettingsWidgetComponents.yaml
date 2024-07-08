@@ -38,17 +38,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: ApplicationNameValueLabel
     Type: Label
     Children:
@@ -71,12 +68,10 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -106,19 +101,16 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: DeviceNameValueTextbox
     Type: TextBox
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -149,7 +141,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -210,7 +201,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
-      Value: false
     - Name: Path
       Type: BaseDataVariableType
       DataType: String
@@ -220,7 +210,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
-      Value: false
     - Name: Visible
       Type: BaseDataVariableType
       DataType: Boolean
@@ -250,12 +239,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -265,26 +252,21 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: Rotation
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: SystemNode
     Type: Alias
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -346,7 +328,6 @@ Children:
             - Name: ns=3;ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -372,39 +353,30 @@ Children:
           - Name: EventId
             Type: PropertyType
             DataType: ByteString
-            Value: ""
           - Name: EventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceNode
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceName
             Type: PropertyType
             DataType: String
-            Value: ""
           - Name: Time
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: ReceiveTime
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: Message
             Type: PropertyType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
-            Value: 0
       - Name: Enabled
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -431,7 +403,6 @@ Children:
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -477,7 +448,6 @@ Children:
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -540,14 +510,12 @@ Children:
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: CatalogNumberValueLabel
     Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -567,7 +535,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -595,14 +562,12 @@ Children:
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: ProductNameValueLabel
     Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -622,7 +587,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -665,7 +629,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00000000"
     - Name: CornerRadius
       Type: BaseDataVariableType
       DataType: Size
@@ -706,7 +669,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -743,7 +705,6 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -763,7 +724,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -793,7 +753,6 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -813,7 +772,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -841,14 +799,12 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
     - Name: SystemManagerValueLabel
       Type: Label
       Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -868,7 +824,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -896,7 +851,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -906,7 +860,6 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -915,7 +868,6 @@ Children:
   - Name: SystemNode
     Type: Alias
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -968,14 +920,12 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: CPUTemperatureValueLabel
     Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1014,7 +964,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: CPUUtilizationLabel
     Type: Label
     Children:
@@ -1037,14 +986,12 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: CPUUtilizationValueLabel
     Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1083,7 +1030,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: LastDeployLabel
     Type: Label
     Children:
@@ -1106,14 +1052,12 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: LastDeployValueLabel
     Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1152,7 +1096,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: LastRebootLabel
     Type: Label
     Children:
@@ -1175,14 +1118,12 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: LastRebootValueLabel
     Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1221,7 +1162,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: FreeMemoryLabel
     Type: Label
     Children:
@@ -1244,14 +1184,12 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: FreeMemoryValueLabel
     Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1290,7 +1228,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: UsedMemoryLabel
     Type: Label
     Children:
@@ -1313,19 +1250,16 @@ Children:
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: UsedMemoryValueLabel
     Type: Label
     Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1364,7 +1298,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: PowerOnTimeLabel
     Type: Label
     Children:
@@ -1387,7 +1320,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: PowerOnTimeValueLabel
     Type: Label
     Children:
@@ -1410,11 +1342,9 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1451,12 +1381,10 @@ Children:
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1468,7 +1396,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1507,7 +1434,6 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: UsedStorageLabel
     Type: Label
     Children:
@@ -1525,12 +1451,10 @@ Children:
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: TextVerticalAlignment
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1542,7 +1466,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: StringFormatter1
         Type: StringFormatter
@@ -1581,11 +1504,9 @@ Children:
       Type: BaseVariableType
       DataType: TextVerticalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: SystemNode
     Type: Alias
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType

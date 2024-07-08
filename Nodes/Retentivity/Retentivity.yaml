@@ -15,7 +15,6 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
         Type: PropertyType
         DataType: NodePointerNodeClass
@@ -24,7 +23,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
-    Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
     Type: BaseDataVariableType
     DataType: Boolean
@@ -44,7 +42,6 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
         Type: PropertyType
         DataType: NodePointerNodeClass
@@ -53,7 +50,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
-    Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
     Type: BaseDataVariableType
     DataType: Boolean

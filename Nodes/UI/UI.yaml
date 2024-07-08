@@ -96,15 +96,12 @@ Children:
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -229,7 +226,6 @@ Children:
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
-    Value: ""
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -271,12 +267,10 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: ImageRightMargin
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -294,7 +288,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -310,7 +303,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -326,7 +318,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -342,7 +333,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -358,7 +348,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -374,7 +363,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -390,7 +378,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -406,7 +393,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -422,7 +408,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -438,7 +423,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -454,7 +438,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -470,7 +453,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -486,7 +468,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -502,7 +483,6 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -516,7 +496,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -525,7 +504,6 @@ Children:
     - Name: CurrentTabIndex
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Class: Reference
       Target: ns=5;i=1181
       Direction: Forward
@@ -689,7 +667,6 @@ Children:
       - Name: Blink
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -705,11 +682,9 @@ Children:
       - Name: AlarmCount
         Type: BaseDataVariableType
         DataType: Int32
-        Value: 0
       - Name: CurrentDisplayedAlarm
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -718,11 +693,9 @@ Children:
       - Name: CurrentDisplayedAlarmIndex
         Type: BaseDataVariableType
         DataType: Int32
-        Value: 0
       - Name: RotationTime
         Type: BaseDataVariableType
         DataType: Duration
-        Value: "0:00:00:0.0000000"
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -775,7 +748,6 @@ Children:
             - Name: ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -800,35 +772,27 @@ Children:
           - Name: EventId
             Type: PropertyType
             DataType: ByteString
-            Value: ""
           - Name: EventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceNode
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceName
             Type: PropertyType
             DataType: String
-            Value: ""
           - Name: Time
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: ReceiveTime
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: Message
             Type: PropertyType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
-            Value: 0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -891,7 +855,6 @@ Children:
             - Name: ObjectPointer
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -916,35 +879,27 @@ Children:
           - Name: EventId
             Type: PropertyType
             DataType: ByteString
-            Value: ""
           - Name: EventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceNode
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceName
             Type: PropertyType
             DataType: String
-            Value: ""
           - Name: Time
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: ReceiveTime
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: Message
             Type: PropertyType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
-            Value: 0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -992,7 +947,6 @@ Children:
       Type: BaseVariableType
       DataType: ContentHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml
 - File: Pages/Pages.yaml
@@ -1002,7 +956,6 @@ Children:
   - Name: Protocol
     Type: BaseDataVariableType
     DataType: Protocol
-    Value: 0
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
@@ -1053,22 +1006,18 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
-        Value: false
       - Name: IsWeb
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
-        Value: false
       - Name: IpAddress
         Type: BaseDataVariableType
         DataType: String
         AccessLevel: Read
-        Value: ""
       - Name: User
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -1078,17 +1027,14 @@ Children:
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
-        Value: ""
       - Name: ActualLanguage
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
-        Value: ""
       - Name: ActualMeasurementSystem
         Type: BaseVariableType
         DataType: MeasurementSystem
         ReferenceType: HasProperty
-        Value: 0
       - Name: TimeZoneOffset
         Type: BaseVariableType
         DataType: TimeZoneDataType
@@ -1116,7 +1062,6 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         AccessLevel: Read
-        Value: false
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
@@ -1145,7 +1090,6 @@ Children:
   - Name: InteractiveColorGradientPercent
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: TextColor
     Type: BaseDataVariableType
     DataType: Color
@@ -1153,7 +1097,6 @@ Children:
   - Name: BorderWidth
     Type: BaseDataVariableType
     DataType: Size
-    Value: 0.0
   - Name: DataInputBackgroundColor
     Type: BaseDataVariableType
     DataType: Color
@@ -1173,7 +1116,6 @@ Children:
   - Name: Radius
     Type: BaseDataVariableType
     DataType: Size
-    Value: 0.0
   - Name: ButtonStyles
     Type: BaseObjectType
     Children:
@@ -1201,7 +1143,6 @@ Children:
       - Name: FontFamily
         Type: BaseDataVariableType
         DataType: Font
-        Value: ""
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -1209,7 +1150,6 @@ Children:
       - Name: FontItalic
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: FontSize
         Type: BaseDataVariableType
         DataType: Size
@@ -1217,11 +1157,9 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: Radius
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
     - Name: BorderedRectangular
       Type: ButtonStyle
       Children:
@@ -1297,11 +1235,9 @@ Children:
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -1396,7 +1332,6 @@ Children:
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color

@@ -10,12 +10,10 @@ Children:
     Id: g=c6a510c636e2442d7dbca103fac24e37
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=655804b87ddab5a545b1e0213384196e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=ca9d65322f4296ba8136d5f507d57b2c
@@ -53,6 +51,15 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward
 - Name: AnalogAlarm
   Id: g=8e8fe0914e4fbc8234960fe8dd4b0951
   Type: ExclusiveLevelAlarmController
@@ -61,7 +68,6 @@ Children:
     Id: g=6fe026e6d5730be560dd169b46388f6e
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=06be611a18c06ab008588782f99421df
@@ -98,7 +104,6 @@ Children:
     Id: g=5420d89ab6d61747ba7ebb1a5b51ede5
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: HighStateMessage
       Id: g=42ef95408a81bee3a9d4b940bc57f03a
@@ -110,3 +115,12 @@ Children:
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+  - Class: Reference
+    Target: ns=21;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=135
+    Direction: Forward

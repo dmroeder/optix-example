@@ -29,43 +29,33 @@ Children:
         - Name: ActiveState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: AckedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConfirmedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConditionName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EnabledState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: SourceName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Severity
           Type: StoreColumn
           DataType: UInt16
-          Value: 0
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
   - Class: Reference
     Target: ns=27;i=30
     Direction: Forward
@@ -76,19 +66,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -155,11 +142,9 @@ Children:
         - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
   - Class: Reference
     Target: ns=27;i=30
     Direction: Forward
@@ -170,19 +155,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus

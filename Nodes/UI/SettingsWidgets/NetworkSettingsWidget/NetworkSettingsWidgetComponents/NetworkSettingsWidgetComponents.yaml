@@ -60,17 +60,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: IPAddressTextBox
     Type: TextBox
     Children:
@@ -115,17 +112,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: MaskTextBox
     Type: TextBox
     Children:
@@ -183,12 +177,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -248,17 +240,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: DNS1TextBox
     Type: TextBox
     Children:
@@ -303,17 +292,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: DNS2TextBox
     Type: TextBox
     Children:
@@ -405,17 +391,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: IPAddressTextBox
     Type: TextBox
     Children:
@@ -465,17 +448,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: MaskTextBox
     Type: TextBox
     Children:
@@ -543,12 +523,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Font
         ModellingRule: Optional
-        Value: ""
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -608,17 +586,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: DNS1TextBox
     Type: TextBox
     Children:
@@ -668,17 +643,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Font
       ModellingRule: Optional
-      Value: ""
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
   - Name: DNS2TextBox
     Type: TextBox
     Children:
