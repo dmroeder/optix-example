@@ -2,6 +2,7 @@ Name: Loggers
 Type: LoggersCategoryFolder
 Children:
 - Name: AlarmsEventLogger1
+  Id: g=7f98ee2f0eb792dc0f5594e8dbe1fe6a
   Type: EventLogger
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:

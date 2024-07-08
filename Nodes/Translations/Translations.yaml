@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [75,2],
+    "Dimensions": [78,2],
     "Body": [
      "","en-US",
      "Reboot","Reboot",
@@ -85,6 +85,9 @@ Children:
      "Active","Active",
      "Acked","Acked",
      "Confirmed","Confirmed",
-     "Severity","Severity"
+     "Severity","Severity",
+     "Refresh","Refresh",
+     "From","From",
+     "To","To"
     ]
    }
