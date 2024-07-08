@@ -13,3 +13,4 @@ ProjectFiles/NetSolution/Private
 ProjectFiles/NetSolution/*.references
 ProjectFiles/UserDefinedModule.xml
 !*.pdf
+!README.md
