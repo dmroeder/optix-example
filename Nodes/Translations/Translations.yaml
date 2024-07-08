@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [64,2],
+    "Dimensions": [75,2],
     "Body": [
      "","en-US",
      "Reboot","Reboot",
@@ -74,6 +74,17 @@ Children:
      "RemoteConnections","Remote connections",
      "Connected"," Connected",
      "AllowUserToConnect","Allow user \"{0}\" from IP address {1} to connect?",
-     "RegisterToDomainDeviceID","Device ID:"
+     "RegisterToDomainDeviceID","Device ID:",
+     "Acknowledge","Acknowledge",
+     "Acknowledge All","Acknowledge All",
+     "Confirm","Confirm",
+     "Confirm All","Confirm All",
+     "SourceName","Source Variable",
+     "Timestamp","Timestamp",
+     "Message","Message",
+     "Active","Active",
+     "Acked","Acked",
+     "Confirmed","Confirmed",
+     "Severity","Severity"
     ]
    }
