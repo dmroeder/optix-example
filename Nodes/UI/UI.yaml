@@ -336,7 +336,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/optix_example/UI/Pages/Page4"
+          Value: "/Objects/optix_example/UI/Pages/DisplayDataGrid"
           Children:
           - Name: Kind
             Type: PropertyType
