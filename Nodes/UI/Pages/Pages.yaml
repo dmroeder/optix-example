@@ -2402,13 +2402,28 @@ Children:
         - Name: Thickness
           Type: BaseDataVariableType
           DataType: Size
-          Value: -1.0
+          Value: 4.0
         - Name: Enabled
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
         - Name: Thresholds
           Type: BaseObjectType
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/optix_example/Model/Temperature"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ff0000"
     - Class: Reference
       Target: ns=5;i=1129
       Direction: Forward
