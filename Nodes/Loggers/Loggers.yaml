@@ -275,6 +275,7 @@ Children:
             DataType: NodePath
             Value: "../../../../EventArguments/LocalTime"
 - Name: DataLogger1
+  Id: g=d284b307638e54f11b7a588632a2d1a4
   Type: DataLogger
   Children:
   - Name: SamplingMode

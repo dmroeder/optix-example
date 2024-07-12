@@ -2528,10 +2528,156 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-- Name: Page6
+- Name: HT_Trend
   Id: g=f254e8170f5086c8cf0f89b4e9a33b35
   Supertype: Page
   ReferenceType: HasComponent
+  Children:
+  - Name: Trend1
+    Type: Trend
+    Children:
+    - Name: Pens
+      Type: BaseObjectType
+      Children:
+      - Name: Temperature
+        Type: TrendPen
+        DataType: BaseDataType
+        Children:
+        - Name: Thickness
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: -1.0
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Thresholds
+          Type: BaseObjectType
+        - Name: Color
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#1b5583"
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Model/VariablesToLog/Temperature/LastValue"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+    - Class: Reference
+      Target: ns=5;i=1129
+      Direction: Forward
+    - Name: XAxis
+      Type: DateTimeAxis
+      Children:
+      - Name: Follow
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Window
+        Type: BaseDataVariableType
+        DataType: Duration
+        Value: "0:00:05:0.0000000"
+      - Name: Interactive
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Time
+        Type: BaseDataVariableType
+        DataType: DateTime
+    - Name: YAxis
+      Type: ValueAxis
+      Children:
+      - Name: Position
+        Type: BaseDataVariableType
+        DataType: HorizontalPositionEnum
+      - Name: MinValue
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -100.0
+      - Name: MaxValue
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 100.0
+      - Name: AutoScale
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Interactive
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+    - Name: LegendVisible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Class: Reference
+      Target: ns=5;i=1201
+      Direction: Forward
+    - Name: TimeRanges
+      Type: BaseObjectType
+    - Class: Reference
+      Target: ns=5;i=1209
+      Direction: Forward
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: ReferenceTimeZone
+      Type: BaseDataVariableType
+      DataType: ReferenceTimeZone
+      ModellingRule: Optional
+      Value: 1
+    - Name: Model
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/optix_example/Loggers/DataLogger1"
+      Children:
+      - Name: ItemKind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
 - Name: Page7
   Id: g=b95d38fb491995824e4f3eabb6d165fc
   Supertype: Page
