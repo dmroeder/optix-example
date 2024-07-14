@@ -2553,11 +2553,29 @@ Children:
           Value: true
         - Name: Thresholds
           Type: BaseObjectType
+          Children:
+          - Name: Threshold1
+            Type: TrendThreshold
+            Children:
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: 80.0
+            - Name: Color
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: Optional
+              Value: "#0000ff"
+            - Name: Thickness
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 4.0
         - Name: Color
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#1b5583"
+          Value: "#ff0000"
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
