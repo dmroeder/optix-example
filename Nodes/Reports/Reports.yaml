@@ -1,2 +1,345 @@
 Name: Reports
 Type: ReportsCategoryFolder
+Children:
+- Name: StyleSheet1
+  Type: ReportStyleSheet
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: ButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ButtonStyle
+    - Name: Accent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+    - Name: BorderedRectangular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+  - Name: InputBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: InputBoxStyle
+  - Name: SwitchStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: NavigationPanelStyle
+  - Name: ChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ChartStyle
+  - Name: DataListStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: DataListStyle
+  - Name: ToolTipStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: LabelStyle
+  - Name: RadioButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RadioButtonStyle
+  - Name: CheckBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: CheckBoxStyle
+- Name: StyleSheet2
+  Type: ReportStyleSheet
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: ButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ButtonStyle
+    - Name: Accent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+    - Name: BorderedRectangular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+  - Name: InputBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: InputBoxStyle
+  - Name: SwitchStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: NavigationPanelStyle
+  - Name: ChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ChartStyle
+  - Name: DataListStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: DataListStyle
+  - Name: ToolTipStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: LabelStyle
+  - Name: RadioButtonStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RadioButtonStyle
+  - Name: CheckBoxStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: CheckBoxStyle

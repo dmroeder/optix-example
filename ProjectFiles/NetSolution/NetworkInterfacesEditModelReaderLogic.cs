@@ -9,6 +9,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.EventLogger;
 using FTOptix.DataLogger;
+using FTOptix.Report;
 #endregion
 
 public class NetworkInterfacesEditModelReaderLogic : BaseNetLogic
