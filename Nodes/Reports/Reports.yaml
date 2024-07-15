@@ -132,6 +132,11 @@ Children:
     Children:
     - Name: Default
       Type: DataListStyle
+      Children:
+      - Name: HeaderBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e6e6e6"
   - Name: ToolTipStyles
     Type: BaseObjectType
     Children:
@@ -303,6 +308,19 @@ Children:
     Children:
     - Name: Default
       Type: DataListStyle
+      Children:
+      - Name: AlternateBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f0f0f0"
+      - Name: HeaderBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: HeaderTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: ToolTipStyles
     Type: BaseObjectType
     Children:
@@ -343,3 +361,7 @@ Children:
     Children:
     - Name: Default
       Type: CheckBoxStyle
+  - Name: BorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ffffff"
